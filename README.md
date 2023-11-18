@@ -1,6 +1,6 @@
 # 说明 （部署前请仔细阅读完）
 * 本项目是针对node环境的容器平台和游戏玩具而生，采用node三方ws组件库连接argo隧道部署节点，集成哪吒探针服务(可选)。
-* node玩具平台只需上传index.js和package.json即可，paas平台需要docker部署的才上传Dockerfile。
+* node玩具平台只需上传index.js和package.json即可，需要docker部署的才上传Dockerfile。
 * 如需是链接github部署，请先删除README.md说明文件，安全起见，已混淆主代码部分，无日志输出。
 * 不填写ARGO_DOMAIN和ARGO_AUTH两个变量即启用临时隧道，反之则使用固定隧道。
 * 若遇到已获取到临时隧道但节点不通，说明域名被墙，重启即可
