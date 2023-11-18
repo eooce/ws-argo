@@ -24,7 +24,7 @@
 # 节点信息
 * 本项目采用ws连接argo隧道，输出list和sub文件和sub订阅，，域名/sub查看节点信息，list文件在2分钟后会自动删除。
 * 节点订阅：项目分配的域名/sub  例如：https://www.google.com/sub
-* 非标端口订阅（游戏类）：项目分配的域名:端口/sub  例如：https://www.google.com:1234/sub
+* 非标端口订阅（游戏类）：项目分配的域名:端口/sub  例如：http://www.google.com:1234/sub
 
 # 其他
 * 本项目已添加自动访问保活功能，需在index.js第10行中添加项目分配的域名。可配合外部保活，项目地址：https://github.com/eoovve/Auto-keep-online
