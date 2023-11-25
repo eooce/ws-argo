@@ -19,8 +19,9 @@
   | ARGO_DOMAIN  | 否 |        | argo固定隧道域名                 |
   | ARGO_AUTH    | 否 |        | argo固定隧道json或token          |
   | CFIP         | 否 |skk.moe | 节点优选域名或ip                 |
-  | NAME         | 否 |  ABCD  | 节点名称前缀，例如：Glitch，Replit|
-  | PORT         | 否 |  3000  |监听端口                         |
+  | NAME         | 否 |  Vls   | 节点名称前缀，例如：Glitch，Replit|
+  | PORT         | 否 |  3000  |监听端口，也是sub订阅端口          |
+  | ARGO_PORT    | 否 |  8001  |ws端口也是argo隧道端口，使用固定隧道token请改回8080，或在cf后台更改端口与这里对应 |
 
 # 节点信息
 * 本项目采用ws连接argo隧道，输出list和sub文件和sub订阅，，域名/sub查看节点信息，list文件在2分钟后会自动删除。
